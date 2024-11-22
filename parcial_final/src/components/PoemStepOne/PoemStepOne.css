@@ -1,0 +1,45 @@
+.poem-container{
+    display: flex;
+    height: fit-content;
+    background-color: rgb(54, 31, 255);
+    flex-direction: column;
+    align-items: center;
+       
+ }
+.poem-container h1{
+    color: white;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.poem-container li{
+    background-color: rgb(236, 236, 236);
+    width: 440px;
+    border-radius: 8px;
+    
+}
+
+@media  (max-width: 600px) {
+    .poem-container {
+      background-color: rgb(135, 16, 246);      
+    }
+    .poem-container li{
+    background-color: rgb(236, 236, 236);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    height: 300px;
+    
+}
+
+h2{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+  }
